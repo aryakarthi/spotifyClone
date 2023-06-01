@@ -1,0 +1,32 @@
+.search-container {
+  background-color: #121212;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  .spotify-logo {
+    display: block;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  .home-search {
+    .home-search-list {
+      list-style-type: none;
+      padding: 0;
+      li {
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        .side-icon {
+          font-size: 26px;
+          color: #fff;
+        }
+        span {
+          display: inline-block;
+          font-size: 16px;
+          color: #fff;
+          margin-left: 16px;
+        }
+      }
+    }
+  }
+}

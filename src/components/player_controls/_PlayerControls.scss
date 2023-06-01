@@ -1,0 +1,23 @@
+.track-controls {
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  svg {
+    color: #bbb;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      color: white;
+    }
+  }
+  .play-pause {
+    svg {
+      color: white;
+    }
+  }
+  .previous,
+  .next,
+  .play-pause {
+    font-size: 2rem;
+  }
+}

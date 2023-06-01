@@ -1,0 +1,49 @@
+.header-container {
+  background-color: #1d0d46;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10px 10px 0 0;
+  gap: 30px;
+  .header-left {
+    .chevron {
+      .chev-btn {
+        .chev-left,
+        .chev-right {
+          color: gray;
+        }
+      }
+    }
+    .search-box {
+      .search-field {
+        display: inline-block;
+        width: 300px;
+        outline: none;
+        .search-icon {
+          color: blue;
+        }
+      }
+    }
+  }
+  .header-right {
+    gap: 20px;
+    .upgrade, .install{
+      background-color: #eee;
+      color: #000;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: capitalize;
+      border-radius: 20px;
+      border: none;
+    }
+    .install, .user-menu{
+      background-color: #121212;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: capitalize;
+      border-radius: 20px;
+      border: none;
+    }
+  }
+}

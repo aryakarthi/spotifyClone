@@ -1,0 +1,15 @@
+.volume-controls {
+  padding: 24px 0;
+  .control-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    input {
+      width: 150px;
+    }
+    svg {
+      font: 20px;
+      color: #fff;
+    }
+  }
+}

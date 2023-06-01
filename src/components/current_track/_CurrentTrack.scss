@@ -1,0 +1,36 @@
+.current-track-content {
+  padding: 6px;
+  .track-stack {
+    gap: 20px;
+    .track-img-name {
+      align-items: center;
+      gap: 10px;
+      .track-img {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 6px;
+      }
+      .track-info {
+        .track-name {
+          font-size: 14px;
+          color: #fff;
+        }
+        .track-artists {
+          font-size: 12px;
+          color: #fff;
+        }
+      }
+    }
+    .track-like-pip {
+      gap: 10px;
+      align-items: center;
+      .track-like,
+      .track-pip {
+        color: #fff;
+        font-size: 20px;
+        display: inline-block;
+      }
+    }
+  }
+}

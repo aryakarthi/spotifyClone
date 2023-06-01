@@ -1,0 +1,135 @@
+.main-container {
+  max-height: 77.5vh;
+  overflow-y: scroll;
+  background-color: #121212;
+  margin-left: 10px;
+  border-radius: 0 0 10px 10px;
+  &::-webkit-scrollbar {
+    width: 6px;
+    &-thumb {
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+  }
+  .playlist-bg {
+    background: rgb(29, 13, 70);
+    background: linear-gradient(
+      180deg,
+      rgba(29, 13, 70, 1) 25%,
+      rgba(0, 0, 0, 1) 80%
+    );
+    .playlist-content {
+      margin: 30px 0;
+      .playlist-img-stack {
+        .playlist-img {
+          display: block;
+          width: 240px;
+        }
+      }
+      .playlist-info-stack {
+        padding-top: 40px;
+        .type,
+        .no-of-songs {
+          font-size: 14px;
+          color: #fff;
+        }
+        .playlist-name {
+          font-size: 100px;
+          font-weight: 600;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .playlist-controls {
+    margin: 16px 0;
+    gap: 20px;
+    .play-btn {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #1fdf64;
+      text-align: center;
+      line-height: 45px;
+      .play-icon {
+        font-size: 32px;
+        color: black;
+      }
+    }
+    .dots-btn {
+      .dots-icon {
+        color: #fff;
+      }
+    }
+  }
+  .playlist-title {
+    position: sticky;
+    top:0;
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+    background-color: #121212;
+    .pl-title {
+      color: #fff;
+    }
+    .duration-icon {
+      display: inline-block;
+      color: #fff;
+    }
+  }
+  .playlist-songs {
+    margin-top: 10px;
+    .song-list {
+      list-style-type: none;
+      padding: 0;
+      .song-info {
+        padding: 4px 0;
+        .track-no {
+          text-align: center;
+          color: #fff;
+          margin-top: 14px;
+        }
+        .song-img-info {
+          gap: 20px;
+          .song-img {
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin-top: 8px;
+          }
+          .song-info {
+            .song-name {
+              color: #fff;
+            }
+            .song-artists {
+              color: #fff;
+              font-size: 14px;
+            }
+          }
+        }
+        .album-name {
+          color: #fff;
+          font-size: 14px;
+          margin-top: 18px;
+        }
+        .duration {
+          color: #fff;
+          font-size: 14px;
+          margin-top: 18px;
+        }
+        .song-like-icon,
+        .song-dot-icon {
+          color: #fff;
+          margin-top: 18px;
+          display: none;
+        }
+        &:hover {
+          background-color: #2a2a2a;
+        }
+        &:hover .song-like-icon,
+        &:hover .song-dot-icon {
+          display: block;
+        }
+      }
+    }
+  }
+}
