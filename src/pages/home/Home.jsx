@@ -1,6 +1,6 @@
 import { Container, Grid, Stack } from "@mui/material";
 import React, { useEffect } from "react";
-import Sidebar from "../../components/sidebar/Sidebar";
+// import Sidebar from "../../components/sidebar/Sidebar";
 import Header from "../../components/header/Header";
 import Main from "../../components/main/Main";
 import Footer from "../../components/footer/Footer";
